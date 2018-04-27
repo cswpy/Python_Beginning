@@ -34,9 +34,9 @@ text = variable;#创建一个变量叫text，并将variable的值赋给text
 同时，在Python中，你可以用`+`号把**同一类型**的变量连起来
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
-      str1 = "Hello "
-      str2 = "Java!"
-      print(str1+str2) # 连接str1和str2并输出
+str1 = "Hello "
+str2 = "Java!"
+print(str1+str2) # 连接str1和str2并输出
 </lab>
 
 输出变量
@@ -112,9 +112,11 @@ ASCII码表长这样：
 ![ASCII码表 图片来自网络](Pic1.jpg)
 
 ### 布尔类型 （boolean）
-布尔类型(在Python中简称bool)是一种特殊的类型，只有两种取值，一种是真（`true`），一种是假（`false`）。它主要有两种用途：
+布尔类型(在Python中简称bool)是一种特殊的类型，只有两种取值，一种是真（`True`），一种是假（`False`）。它主要有两种用途：
 1. 用来记录一个属性的是或者不是，例如记录一个人是不是会员，就可以用布尔型变量`isVIP`来记录
 2. 布尔是几个操作符的结果类型，比如比较变量`a`是不是等于变量`b`，结果就是一个布尔类型的值，它有可能为真（相等），也有可能为假（不相等）
+
+**注意**布尔类型的`True`和`False`首字母必须大写，否则程序会报错
 
 运算和操作符
 ------
